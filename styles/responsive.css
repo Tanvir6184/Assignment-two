@@ -1,0 +1,17 @@
+/* for medium device */
+@media screen and (max-width: 992px) and (min-width:576px) {
+    .hamburger{
+        display: none;
+    }
+}
+
+/* for small device */
+@media screen and (max-width:576px) {
+    .nav-links{
+        display: none;
+    }
+    .hamburger{
+        flex-direction: row;
+        margin-right: 50px;
+    }
+}

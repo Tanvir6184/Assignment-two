@@ -1,4 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 body{
     font-family: "Inter", sans-serif;
+}
+.italic{
+    font-family: "Playwrite CU", cursive;
+}
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* header related styles */
+
+/* navbar related styles */
+.nav-bar{
+  justify-content: space-between;
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  filter: rgb(17, 17, 17)
+  rgba(119, 119, 119, 0);
+  display: flex;
+  align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+
+}
+.span{
+    border-radius: 2.9rem;
+    background-color: rgb(230, 83, 60);
+}
+.nav-links{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    border-radius: 39px;
+    margin-top: 39px;
+    
+}
+.nav-bar h3{
+    Font-weight: 800;
+    Font-size: 2rem;
+    Letter-spacing: 0%;  
+    color: rgb(230, 83, 60);
+}
+.nav-bar .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+/* banner section style  */
+
+.banner-container{
+    display: flex;
+}
+.text-btn-container h1{
+    color:black;
+    font-size: 4.9rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.banner-text{
+    Font-weight: 400;
+    Font-size: 1rem;
+    line-height: 1.6rem;
+    Letter-spacing: 0.5px;
+
 }
