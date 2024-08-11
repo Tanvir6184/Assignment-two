@@ -2,17 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 body{
     font-family: "Inter", sans-serif;
+    /* background-color: #1F1F1F; */
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 .italic{
     font-family: "Playwrite CU", cursive;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
 }
 /* shared styles */
 .display-flex{
     display: flex;
 }
-
-/* header related styles */
-
 /* navbar related styles */
 .nav-bar{
   justify-content: space-between;
@@ -21,6 +27,7 @@ body{
   rgba(119, 119, 119, 0);
   display: flex;
   align-items: center;
+  background-color: #141414;
 }
 .nav-item{
     list-style: none;
@@ -39,13 +46,15 @@ body{
 .span{
     border-radius: 2.9rem;
     background-color: rgb(230, 83, 60);
+    padding: 5px;
 }
 .nav-links{
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 5px;
     border-radius: 39px;
-    margin-top: 39px;
+    margin-top: 30px;
+    margin-bottom: 8px;
     
 }
 .nav-bar h3{
@@ -53,31 +62,139 @@ body{
     Font-size: 2rem;
     Letter-spacing: 0%;  
     color: rgb(230, 83, 60);
+    margin-top: 5px;
 }
-.nav-bar .banner{
-    max-width: 1440px;
-    margin: 0 auto;
 
-}
 
 /* banner section style  */
 
 .banner-container{
     display: flex;
+    gap: 167px;
+    background-color: #232323;
 }
 .text-btn-container h1{
-    color:black;
+    color: rgb(255, 255, 255);
     font-size: 4.9rem;
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
-
+    margin-top: 100px;
 }
 .banner-text{
     Font-weight: 400;
     Font-size: 1rem;
     line-height: 1.6rem;
     Letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 28px;
 
+}
+.btn-one{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    width: 224px;
+    height: 54px;
+    margin-top: 28px;
+    border: 1px solid rgb(230, 83, 60);
+    
+}
+.btn-two{
+    margin-top: 28px;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background-color: #0E0E0E;
+    color: white;
+}
+.banner-text-image{
+    position: relative;
+}
+.card-one{
+    width: 160px;
+    height: 98px;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    background-color: #383937;
+    padding-left: 30px;
+    border-radius: 1rem;
+    top: 200px;
+    right: 135px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+
+}
+.card-one h2{
+    color: rgb(255, 255, 255);
+    font-size: 2.7rem;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.card-two{
+    width: 170px;
+    height: 88px;
+    position: absolute;
+    background-color: #393939;
+    display: flex;
+    padding-top: 20px;
+    border-radius: 1rem;
+    gap: 5px;
+    bottom: 200px;
+    right: 450px;
+    top: 500px;
+    
+}
+.ball{
+    border-radius: 50%;
+    background-color: orangered;
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+
+/* CHANGE YOUR HABITS STYLES */
+.habit-container{
+    background-color: #000000;
+}
+.habit-text-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.habit-text-container h2{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.habit-text-container p{
+    color: rgb(255, 255, 255);
+    font-size: 0.96rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    padding-top: 10px;
+}
+.image-container{
+    display: flex;
+    gap: 80px;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+.circle-image{
+    border-radius: 50%;
+    justify-content: space-evenly;
+}
+.habits-head{
+    color: white;
+}
+.habits-text{
+    color: white;
 }
