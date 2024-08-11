@@ -187,6 +187,7 @@ body{
     gap: 80px;
     margin-top: 40px;
     justify-content: space-around;
+    padding-bottom: 140px;
 }
 .circle-image{
     border-radius: 50%;
@@ -196,5 +197,50 @@ body{
     color: white;
 }
 .habits-text{
+    color: rgba(255, 255, 255, 0.5);
+}
+.habits-card{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.5); 
+}
+
+/* run section styles */
+
+.run-container{
     color: white;
+    display: flex;
+    background-color: #222222;
+    gap: 200px
+    ;
+}
+.run-header{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0;
+}
+.run-text{
+   color: rgba(255, 255, 255, 0.5); 
+   font-size: 0.9rem;
+   line-height: 1.8rem;
+}
+.run-btn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    width: 224px;
+    height: 44px;
+    border: none;
+    margin-top: 34px;
+    cursor: pointer;
+}
+.run-image-container{
+    
+}
+.run-image{
+    width: 366px;
+    height: 312px;
+    margin-top: 50px;   
+    border-radius: 30px;
+}
+.run-text-div{
+    padding: 50px 0px 50px 50px;
 }
