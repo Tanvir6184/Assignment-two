@@ -358,3 +358,69 @@ tbody{
     margin-top: 20px;
     cursor: pointer;
 }
+/* TEAM-SECTION-STYLES */
+.team-header{
+    font-size: 3rem;
+    font-weight: 900;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.team-text{
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+
+}
+.meet-image-container{
+    background-color: #222222;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 12px;
+    width: 1020px;
+    height: 564px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+.trainer-images{
+    width: 320px;
+    height: 272px;
+    border-radius: 12px;
+}
+.name-text-one{
+    position: absolute;
+    bottom: 334px;
+    left: 50px;
+}
+.name-text-two{
+    position: absolute;
+    bottom: 334px;
+    left: 400px;
+}
+.name-text-three{
+    position: absolute;
+    bottom: 334px;
+    left: 740px;
+}
+.name-text-four{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+.name-text-five{
+    position: absolute;
+    bottom: 30px;
+    left: 400px;
+}
+.name-text-six{
+    position: absolute;
+    bottom: 30px;
+    left: 740px;
+}
+.p-text{
+    color:#939493;
+}
