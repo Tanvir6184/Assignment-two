@@ -424,3 +424,30 @@ tbody{
 .p-text{
     color:#939493;
 }
+/* FOOTER SECTION STYLES */
+.footer-container{
+    background-color: #222222;
+}
+.footer-main-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 88px;
+    border: 2px solid red;
+}
+.footer-main{
+    width: 443px;
+    margin-right: 102px;
+}
+.footer-middle-text{
+    width: 181px;
+}
+.footer-last-text{
+    width: 165px;
+    margin-left: 152px;
+}
+.footer-header{
+    font-size: 4.5rem;
+    font-weight: 800;
+    color:rgb(230, 83, 60);
+}
