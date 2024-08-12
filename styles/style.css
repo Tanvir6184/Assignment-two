@@ -3,6 +3,7 @@
 body{
     font-family: "Inter", sans-serif;
     background-color: #000000;
+    color: white;
 }
 *{
     margin: 0;
@@ -109,6 +110,7 @@ body{
     border-radius: 42px;
     background-color: #0E0E0E;
     color: white;
+    border: none;
 }
 .banner-text-image{
     position: relative;
@@ -216,11 +218,13 @@ body{
     background-color: #222222;
     gap: 200px;
     margin: 0px 100px;
+    border-radius: 32px;
 }
 .run-header{
     font-size: 3rem;
     font-weight: 900;
     letter-spacing: 0;
+    padding-bottom: 10px;
 }
 .run-text{
    color: rgba(255, 255, 255, 0.5); 
@@ -247,4 +251,110 @@ body{
 }
 .run-text-div{
     padding: 50px 0px 50px 50px;
+}
+
+/* BMI Calculator styles */
+.bmi-text-container{
+    margin: 80px 370px 0px;
+    padding-bottom: 88px;
+}
+.bmi-header{
+    font-size: 3rem;
+    letter-spacing: 0%;
+}
+.bmi-text{
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+}
+
+/* Bmi-table-styles */
+.bmi-table-container{
+    background-color: #222222;
+    display: flex;
+    padding: 50px 120px 52px 160px;
+    gap: 130px;
+}
+.bmi-table-header{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+.bmi-table{
+    margin-top: 50px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+th, td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    
+}
+tbody{
+    color:rgba(255, 255, 255, 0.5);
+}
+
+/* CALCULATOR */
+.form{
+    /* border: 1px solid green; */
+}
+.calculator-heading{
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+.calculator-text{
+    color:rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+    
+}
+.calculator-form{
+    color: rgba(255, 255, 255, 0.5);
+    gap: 20px;
+}
+.calculator{
+    padding: 10px;
+    color:rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    margin: 10px 10px 10px 0;
+    width: 270px;
+    
+}
+.special-option-one{
+    width: 290px;
+    padding: 10px;
+    color:rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    margin: 10px 10px 10px 0;
+}
+.special-option{
+    width: 595px;
+    padding: 10px;
+    color:rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    margin: 10px 10px 10px 0;
+
+}
+.calculator-btn{
+    height: 54px;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px 50px 16px 50px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
 }
