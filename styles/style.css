@@ -119,8 +119,8 @@ body{
     width: 160px;
     height: 98px;
     position: absolute;
-    backdrop-filter: blur(10px);
-    background-color: #383937;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
     padding-left: 30px;
     border-radius: 1rem;
     top: 200px;
@@ -142,7 +142,8 @@ body{
     width: 170px;
     height: 88px;
     position: absolute;
-    background-color: #393939;
+    backdrop-filter: blur(5px);
+    background:rgba(255, 255, 255, 0.1);
     display: flex;
     padding-top: 20px;
     border-radius: 1rem;
@@ -438,12 +439,13 @@ tbody{
     margin-left: 100px;
     margin-top: 88px;
     /* border: 2px solid red; */
-    padding-top: 50px;
+    /* padding-top: 50px; */
     padding-bottom: 80px;
 }
 .footer-main{
     width: 443px;
     margin-right: 102px;
+    padding-top: 50px;
     
 }
 .footer-main-text{
@@ -451,6 +453,7 @@ tbody{
 }
 .footer-middle-text{
     width: 181px;
+    padding-top: 75px;
 }
 .middle-text{
     padding-top: 20px;
@@ -458,6 +461,7 @@ tbody{
 .footer-last-text{
     width: 165px;
     margin-left: 152px;
+    padding-top: 65px;
 }
 .last-text{
     padding-top: 20px;
@@ -476,5 +480,4 @@ tbody{
 .copy-right{
     text-align: center;
     padding: 36px;
-    
 }
