@@ -333,6 +333,10 @@ tbody{
     border: none;
     margin: 10px 10px 10px 0;
 }
+.options{
+    color: #848681;
+    background-color: #222222;
+}
 .special-option{
     width: 595px;
     padding: 10px;
@@ -433,21 +437,44 @@ tbody{
     flex-direction: row;
     margin-left: 100px;
     margin-top: 88px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 .footer-main{
     width: 443px;
     margin-right: 102px;
+    
+}
+.footer-main-text{
+    padding-top: 25px;
 }
 .footer-middle-text{
     width: 181px;
+}
+.middle-text{
+    padding-top: 20px;
 }
 .footer-last-text{
     width: 165px;
     margin-left: 152px;
 }
+.last-text{
+    padding-top: 20px;
+}
 .footer-header{
     font-size: 4.5rem;
     font-weight: 800;
     color:rgb(230, 83, 60);
+}
+.horizontal-line{
+    /* padding: 1px; */
+    width: 1000px;
+    border: 1px solid #393939;
+    margin: 0 auto;    
+} 
+.copy-right{
+    text-align: center;
+    padding: 36px;
+    
 }
