@@ -158,4 +158,62 @@
     }
 
 
+
+
+    .team-text-container{
+        width: 309px;
+        margin: 0 auto;
+    }
+    .team-header{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .meet-image-container{
+       grid-template-columns: repeat(1, 1fr);
+       width: 350px;
+       height: 1188px;
+       margin: 0 auto;
+       margin-top: 50px;
+    }
+    .image-two{
+        order: 3;
+    }
+    .image-three{
+        order: 2;
+    }
+    .image-four{
+        order: 4;
+    }
+
+    .first-trainer{
+        display: none;
+    }
+    .fourth-trainer{
+        display: none;
+    }
+    .name-text-one{
+        display: none;
+    }
+    .name-text-four{
+        display: none;
+    }
+
+    .name-text-two{
+        position: absolute;
+        left: 40px;
+        top: 240px;
+    }
+    .name-text-five{
+        left: 50px;
+        top: 520px;
+    }
+    .name-text-three{
+        left: 50px;
+        bottom: 345px;
+    }
+    .name-text-six{
+        left: 50px;
+        bottom: 50px;
+    }
+
 }
