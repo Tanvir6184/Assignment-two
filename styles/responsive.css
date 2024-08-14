@@ -1,5 +1,5 @@
 /* for medium device */
-@media screen and (max-width: 992px) and (min-width:576px) {
+@media screen and (min-width:576px) {
     .hamburger{
         display: none;
     }
@@ -10,8 +10,109 @@
     .nav-links{
         display: none;
     }
+    .nav-bar{
+        justify-content: space-between;
+        padding: 0;
+        width: 356px;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-left: 0px;
+        
+    }
     .hamburger{
         flex-direction: row;
-        margin-right: 50px;
     }
+    .banner-container{
+        flex: none;
+        flex-direction: column;
+        padding: 10px 10px;
+        gap: 48px;
+        
+        
+    }
+    .text-btn-container h1{
+        font-size: 2.4rem;
+        width: 285px;
+        
+    }
+    .banner-text{
+        font-size: 16px;
+        width: 274px;
+    }
+    .btn-one{
+        width:150px;
+    }
+    .btn-two{
+        width: 150px;
+    }
+    .banner-image{
+        margin: 0;
+        padding: 0;
+    }
+    .card-one{
+        top: 700px;
+        right: 1px;
+    }
+    .card-two{
+        top: -1000px;
+    }
+
+
+    .habit-container{
+        padding: 0;
+    }
+    .habit-text-container{
+        padding: 0;
+    }
+    .habit-text-container h2{
+        font-size: 2rem;
+    }
+    .habit-text-container p{
+        font-size: 0.9rem;
+        padding: 0 40px;
+    }
+    .image-container{
+        flex-direction: column;
+        gap: 50px;
+        padding: 0px 120px;
+    }
+    .habits-head{
+        padding-bottom: 15px;
+    }
+
+
+    .run-container{
+        flex-direction: column;
+        width: 353px;
+        margin: 0 0;
+        gap: 0;
+        margin-top: 66px;
+    }
+    .run-section-container{
+        padding-left: 55px;
+
+    }
+    .run-header{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .run-text{
+        font-size: 0.9rem;
+        font-weight: 400;
+        width: 287px;
+    }
+    .run-text-div{
+        width: 300px;
+    }
+    .run-image-container{
+        margin: 18px auto;
+       
+    }
+    .run-image{
+        width: 280px;
+        border-radius: 18px;
+        height: 170px;
+        margin-top: 10px;
+    }
+
 }

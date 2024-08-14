@@ -67,7 +67,6 @@ body{
     margin-top: 5px;
 }
 
-
 /* banner section style  */
 
 .banner-container{
@@ -220,6 +219,9 @@ body{
     gap: 200px;
     margin: 0px 100px;
     border-radius: 32px;
+}
+.run-text-div{
+    width: 443px;
 }
 .run-header{
     font-size: 3rem;
