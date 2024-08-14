@@ -133,8 +133,8 @@
     .bmi-text-container{
         width: 353px;
         height: 124px;
-        margin: 20px 60px;
-        padding: 50px;
+        margin: 20px 10px;
+        padding: 40px;
     }
 
     .bmi-table-container{
@@ -247,7 +247,7 @@
         padding-bottom: 50px;
     }
     .horizontal-line{
-        width: 100%;
+        width: 80%;
     }
 
 }
