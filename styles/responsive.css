@@ -27,7 +27,7 @@
         flex-direction: column;
         padding: 10px 10px;
         gap: 48px;
-        
+        padding-left: 20px    ;
         
     }
     .text-btn-container h1{
@@ -129,8 +129,9 @@
         gap: 20px;
         width: 100%;
     }
+    
     .bmi-chart-plus-table{
-        padding-left: 50px;
+        padding-left: 20px;
     }
     .calculator-text{
         width: 346px;  
@@ -214,6 +215,25 @@
     .name-text-six{
         left: 50px;
         bottom: 50px;
+    }
+
+
+
+    .footer-main-container{
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 10px 20px 0px;
+        margin-left: 20px;
+    }
+    .footer-main{
+        width: 100%;
+    }
+    .footer-last-text{
+        margin-left: 0;
+        padding-bottom: 50px;
+    }
+    .horizontal-line{
+        width: 100%;
     }
 
 }

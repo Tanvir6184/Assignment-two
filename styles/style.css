@@ -457,6 +457,7 @@ tbody{
 }
 .footer-main-text{
     padding-top: 25px;
+    color:#939493;
 }
 .footer-middle-text{
     width: 181px;
@@ -464,6 +465,7 @@ tbody{
 }
 .middle-text{
     padding-top: 20px;
+    color:#939493;
 }
 .footer-last-text{
     width: 165px;
@@ -472,6 +474,7 @@ tbody{
 }
 .last-text{
     padding-top: 20px;
+    color:#939493;
 }
 .footer-header{
     font-size: 4.5rem;
@@ -487,4 +490,5 @@ tbody{
 .copy-right{
     text-align: center;
     padding: 36px;
+    color:#939493;
 }
