@@ -280,9 +280,11 @@ body{
 .bmi-table-header{
     font-size: 1.8rem;
     font-weight: 900;
+    padding-left: 20px;
 }
 .bmi-table{
     margin-top: 50px;
+    padding-left: 20px;
 }
 table{
     width: 100%;
@@ -305,13 +307,15 @@ tbody{
 }
 .calculator-heading{
     padding-bottom: 20px;
+    padding-left: 20px;
     font-size: 1.8rem;
     font-weight: 900;
+
 }
 .calculator-text{
     color:rgba(255, 255, 255, 0.5);
     padding-bottom: 20px;
-    
+    width: 620px;
 }
 .calculator-form{
     color: rgba(255, 255, 255, 0.5);
@@ -340,7 +344,7 @@ tbody{
     color: #848681;
     background-color: #222222;
 }
-.special-option{
+.special-option-two{
     width: 595px;
     padding: 10px;
     color:rgba(255, 255, 255, 0.5);
